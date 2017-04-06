@@ -45,7 +45,4 @@ we create an empty one in the form of an array before continuing */
     res.redirect('/todo');
 })
 
-
-
-// .listen(process.env.port);
-.listen(3000);
+.listen(process.env.port);
