@@ -13,8 +13,6 @@ name: Build and deploy Node app
 jobs:
   build-and-deploy:
     runs-on: windows-2019
-    variables:
-      System.debug: true
     steps:
     # checkout the repo
     - uses: actions/checkout@master
