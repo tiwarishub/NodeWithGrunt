@@ -27,7 +27,6 @@ jobs:
 
     # install dependencies, build, and test
     - name: npm install, build
-      working-directory: .
       run: |
         npm install
         grunt --gruntfile Gruntfile.js
